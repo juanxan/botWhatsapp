@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GT.Transversal.Application" Version="2022.9.9.1608-rc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\botWhatsapp.Application.Abstractions\botWhatsapp.Application.Abstractions.csproj" />
+    <ProjectReference Include="..\botWhatsapp.DataAccess.Abstractions\botWhatsapp.DataAccess.Abstractions.csproj" />
+    <ProjectReference Include="..\botWhatsapp.Integration.Abstractions\botWhatsapp.Integration.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

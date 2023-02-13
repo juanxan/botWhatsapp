@@ -1,0 +1,165 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "botWhatsapp.DataAccess.Abstractions/1.0.0": {
+        "dependencies": {
+          "GT.Salesforce.DataAccess.Abstractions": "2022.12.15.1356-rc",
+          "botWhatsapp.Common": "1.0.0"
+        },
+        "runtime": {
+          "botWhatsapp.DataAccess.Abstractions.dll": {}
+        }
+      },
+      "AutoMapper/11.0.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.1.0"
+          }
+        }
+      },
+      "GT.Salesforce.Common/2022.12.15.1356-rc": {
+        "dependencies": {
+          "GT.Transversal.Common": "2022.9.9.1608-rc"
+        },
+        "runtime": {
+          "lib/net6.0/GT.Salesforce.Common.dll": {
+            "assemblyVersion": "2022.12.15.1356",
+            "fileVersion": "2022.12.15.1356"
+          }
+        }
+      },
+      "GT.Salesforce.DataAccess.Abstractions/2022.12.15.1356-rc": {
+        "dependencies": {
+          "GT.Salesforce.Common": "2022.12.15.1356-rc"
+        },
+        "runtime": {
+          "lib/net6.0/GT.Salesforce.DataAccess.Abstractions.dll": {
+            "assemblyVersion": "2022.12.15.1356",
+            "fileVersion": "2022.12.15.1356"
+          }
+        }
+      },
+      "GT.Transversal.Common/2022.9.9.1608-rc": {
+        "dependencies": {
+          "AutoMapper": "11.0.1",
+          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.5",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Rxmxnx.PInvoke.Extensions": "0.1.7"
+        },
+        "runtime": {
+          "lib/net6.0/GT.Transversal.Common.dll": {
+            "assemblyVersion": "2022.9.9.1608",
+            "fileVersion": "2022.9.9.1608"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.EntityFrameworkCore.Abstractions/6.0.5": {
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "assemblyVersion": "6.0.5.0",
+            "fileVersion": "6.0.522.21804"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Rxmxnx.PInvoke.Extensions/0.1.7": {
+        "runtime": {
+          "lib/net5.0/Rxmxnx.PInvoke.Extensions.dll": {
+            "assemblyVersion": "0.1.7.0",
+            "fileVersion": "0.1.7.0"
+          }
+        }
+      },
+      "botWhatsapp.Common/1.0.0": {
+        "runtime": {
+          "botWhatsapp.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "botWhatsapp.DataAccess.Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutoMapper/11.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WIadGC1pIwbnyTubvI577p3F++Bsj9q2Q3OaAc1I0QS+JhupN1xkdrPBhI9bPIeg63zM81tZplUNYkqU1HE5jQ==",
+      "path": "automapper/11.0.1",
+      "hashPath": "automapper.11.0.1.nupkg.sha512"
+    },
+    "GT.Salesforce.Common/2022.12.15.1356-rc": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CCg32MYrsMHZ+NJy01NCqdU7gFSv6r/veCUg27UK/z79bWyVgPpCOdH08DvB4me3UlE1hR4R+9gJcKoYssLBrA==",
+      "path": "gt.salesforce.common/2022.12.15.1356-rc",
+      "hashPath": "gt.salesforce.common.2022.12.15.1356-rc.nupkg.sha512"
+    },
+    "GT.Salesforce.DataAccess.Abstractions/2022.12.15.1356-rc": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Te+fq/424EVv6Px0umwIEesUdjhc0gt+4lJ6gGNi0SfnDKj8QYpZBWOaPzFEHIbjCW/Le0K8g+9ZaNz3B+8SAQ==",
+      "path": "gt.salesforce.dataaccess.abstractions/2022.12.15.1356-rc",
+      "hashPath": "gt.salesforce.dataaccess.abstractions.2022.12.15.1356-rc.nupkg.sha512"
+    },
+    "GT.Transversal.Common/2022.9.9.1608-rc": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EbBYknd2wLwHhXQH5k6L1jE36R0gp+2td2cGCzvkEIP6k2s8mbj0OxpLhZZAokTDLATeyO6ESYfnewHl5ZLd5g==",
+      "path": "gt.transversal.common/2022.9.9.1608-rc",
+      "hashPath": "gt.transversal.common.2022.9.9.1608-rc.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Abstractions/6.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q3/fKW6XCTfnDk4fYP2BJZi84cD2SuCPkP3A3QqxvCQcXbX90bfSLzVIsoMXzigHGJgZUJ+Un7QodT5Nvk0+Eg==",
+      "path": "microsoft.entityframeworkcore.abstractions/6.0.5",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.6.0.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Rxmxnx.PInvoke.Extensions/0.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CPyNrOZthYMLrWJq+yyZDO+922934wuLbtNrofGEDjCOd08lH7Fc498sRcTLLdGSSd4qAFxI8Av+rFGfuvvY1Q==",
+      "path": "rxmxnx.pinvoke.extensions/0.1.7",
+      "hashPath": "rxmxnx.pinvoke.extensions.0.1.7.nupkg.sha512"
+    },
+    "botWhatsapp.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

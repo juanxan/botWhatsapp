@@ -1,0 +1,15 @@
+C:\apibotWhatsapp\botWhatsapp\botWhatsapp.Application.Abstractions\bin\Debug\net6.0\botWhatsapp.Application.Abstractions.deps.json
+C:\apibotWhatsapp\botWhatsapp\botWhatsapp.Application.Abstractions\bin\Debug\net6.0\botWhatsapp.Application.Abstractions.dll
+C:\apibotWhatsapp\botWhatsapp\botWhatsapp.Application.Abstractions\bin\Debug\net6.0\botWhatsapp.Application.Abstractions.pdb
+C:\apibotWhatsapp\botWhatsapp\botWhatsapp.Application.Abstractions\obj\Debug\net6.0\botWhatsapp.Application.Abstractions.csproj.AssemblyReference.cache
+C:\apibotWhatsapp\botWhatsapp\botWhatsapp.Application.Abstractions\obj\Debug\net6.0\botWhatsapp.Application.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\apibotWhatsapp\botWhatsapp\botWhatsapp.Application.Abstractions\obj\Debug\net6.0\botWhatsapp.Application.Abstractions.AssemblyInfoInputs.cache
+C:\apibotWhatsapp\botWhatsapp\botWhatsapp.Application.Abstractions\obj\Debug\net6.0\botWhatsapp.Application.Abstractions.AssemblyInfo.cs
+C:\apibotWhatsapp\botWhatsapp\botWhatsapp.Application.Abstractions\obj\Debug\net6.0\botWhatsapp.Application.Abstractions.csproj.CoreCompileInputs.cache
+C:\apibotWhatsapp\botWhatsapp\botWhatsapp.Application.Abstractions\obj\Debug\net6.0\botWhatsapp.Application.Abstractions.dll
+C:\apibotWhatsapp\botWhatsapp\botWhatsapp.Application.Abstractions\obj\Debug\net6.0\refint\botWhatsapp.Application.Abstractions.dll
+C:\apibotWhatsapp\botWhatsapp\botWhatsapp.Application.Abstractions\obj\Debug\net6.0\botWhatsapp.Application.Abstractions.pdb
+C:\apibotWhatsapp\botWhatsapp\botWhatsapp.Application.Abstractions\obj\Debug\net6.0\ref\botWhatsapp.Application.Abstractions.dll
+C:\apibotWhatsapp\botWhatsapp\botWhatsapp.Application.Abstractions\bin\Debug\net6.0\botWhatsapp.Common.dll
+C:\apibotWhatsapp\botWhatsapp\botWhatsapp.Application.Abstractions\bin\Debug\net6.0\botWhatsapp.Common.pdb
+C:\apibotWhatsapp\botWhatsapp\botWhatsapp.Application.Abstractions\obj\Debug\net6.0\botWhatsapp.Application.Abstractions.csproj.CopyComplete

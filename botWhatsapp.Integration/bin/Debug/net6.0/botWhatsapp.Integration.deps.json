@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "botWhatsapp.Integration/1.0.0": {
+        "dependencies": {
+          "botWhatsapp.Integration.Abstractions": "1.0.0"
+        },
+        "runtime": {
+          "botWhatsapp.Integration.dll": {}
+        }
+      },
+      "botWhatsapp.Common/1.0.0": {
+        "runtime": {
+          "botWhatsapp.Common.dll": {}
+        }
+      },
+      "botWhatsapp.Integration.Abstractions/1.0.0": {
+        "dependencies": {
+          "botWhatsapp.Common": "1.0.0"
+        },
+        "runtime": {
+          "botWhatsapp.Integration.Abstractions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "botWhatsapp.Integration/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "botWhatsapp.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "botWhatsapp.Integration.Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "LTSVpS938saS3wOvwjAynQuNC5JlpaB6+pgJQ0EuJ/mhiI+ZmkMDmnB2ic0Vs/L/wWWftlXucnZj5Jos8uc8YQ==",
+  "success": true,
+  "projectFilePath": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.DataAccess.Abstractions\\botWhatsapp.DataAccess.Abstractions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\gt.salesforce.common\\2022.12.15.1356-rc\\gt.salesforce.common.2022.12.15.1356-rc.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\gt.salesforce.dataaccess.abstractions\\2022.12.15.1356-rc\\gt.salesforce.dataaccess.abstractions.2022.12.15.1356-rc.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\gt.transversal.common\\2022.9.9.1608-rc\\gt.transversal.common.2022.9.9.1608-rc.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.5\\microsoft.entityframeworkcore.abstractions.6.0.5.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\rxmxnx.pinvoke.extensions\\0.1.7\\rxmxnx.pinvoke.extensions.0.1.7.nupkg.sha512"
+  ],
+  "logs": []
+}

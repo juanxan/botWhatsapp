@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+	  <IsPackable>false</IsPackable>
+	  <RootNamespace>$(MSBuildProjectName.Replace(" ", "_").Replace(".Api", ""))</RootNamespace>
+	  <DocumentationFile>.\$(AssemblyName).xml</DocumentationFile>
+	  <ExcludeXmlAssemblyFiles>false</ExcludeXmlAssemblyFiles>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="6.0.8" />
+    <PackageReference Include="GT.Salesforce.Application" Version="2022.9.27.1346-rc" />
+    <PackageReference Include="GT.Salesforce.Integration" Version="2022.9.27.1346-rc" />
+    <PackageReference Include="GT.Salesforce.Web" Version="2022.9.27.1346-rc" />
+    <PackageReference Include="GT.Transversal.Integration" Version="2022.9.9.1608-rc" />
+    <PackageReference Include="GT.Transversal.Web" Version="2022.9.9.1608-rc" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\botWhatsapp.Application.csproj" />
+    <ProjectReference Include="..\botWhatsapp.DataAccess\botWhatsapp.DataAccess.csproj" />
+    <ProjectReference Include="..\botWhatsapp.Integration\botWhatsapp.Integration.csproj" />
+  </ItemGroup>
+
+</Project>

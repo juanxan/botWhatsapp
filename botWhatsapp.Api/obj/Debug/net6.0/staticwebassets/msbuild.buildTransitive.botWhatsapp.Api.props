@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\botWhatsapp.Api.props" />
+</Project>

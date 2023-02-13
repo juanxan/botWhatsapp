@@ -1,0 +1,597 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Api\\botWhatsapp.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\apibotWhatsapp\\botWhatsapp\\Application\\botWhatsapp.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\apibotWhatsapp\\botWhatsapp\\Application\\botWhatsapp.Application.csproj",
+        "projectName": "botWhatsapp.Application",
+        "projectPath": "C:\\apibotWhatsapp\\botWhatsapp\\Application\\botWhatsapp.Application.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\apibotWhatsapp\\botWhatsapp\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/proyecto-grantitan/2c56efb1-2ee3-47ac-89c3-8f945274c695/_packaging/GranTitanFeed/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/proyecto-grantitan/2c56efb1-2ee3-47ac-89c3-8f945274c695/_packaging/GrantitanFeedNet60/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Application.Abstractions\\botWhatsapp.Application.Abstractions.csproj": {
+                "projectPath": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Application.Abstractions\\botWhatsapp.Application.Abstractions.csproj"
+              },
+              "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.DataAccess.Abstractions\\botWhatsapp.DataAccess.Abstractions.csproj": {
+                "projectPath": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.DataAccess.Abstractions\\botWhatsapp.DataAccess.Abstractions.csproj"
+              },
+              "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Integration.Abstractions\\botWhatsapp.Integration.Abstractions.csproj": {
+                "projectPath": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Integration.Abstractions\\botWhatsapp.Integration.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GT.Transversal.Application": {
+              "target": "Package",
+              "version": "[2022.9.9.1608-rc, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Api\\botWhatsapp.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Api\\botWhatsapp.Api.csproj",
+        "projectName": "botWhatsapp.Api",
+        "projectPath": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Api\\botWhatsapp.Api.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/proyecto-grantitan/2c56efb1-2ee3-47ac-89c3-8f945274c695/_packaging/GranTitanFeed/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/proyecto-grantitan/2c56efb1-2ee3-47ac-89c3-8f945274c695/_packaging/GrantitanFeedNet60/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\apibotWhatsapp\\botWhatsapp\\Application\\botWhatsapp.Application.csproj": {
+                "projectPath": "C:\\apibotWhatsapp\\botWhatsapp\\Application\\botWhatsapp.Application.csproj"
+              },
+              "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.DataAccess\\botWhatsapp.DataAccess.csproj": {
+                "projectPath": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.DataAccess\\botWhatsapp.DataAccess.csproj"
+              },
+              "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Integration\\botWhatsapp.Integration.csproj": {
+                "projectPath": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Integration\\botWhatsapp.Integration.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "GT.Salesforce.Application": {
+              "target": "Package",
+              "version": "[2022.9.27.1346-rc, )"
+            },
+            "GT.Salesforce.Integration": {
+              "target": "Package",
+              "version": "[2022.9.27.1346-rc, )"
+            },
+            "GT.Salesforce.Web": {
+              "target": "Package",
+              "version": "[2022.9.27.1346-rc, )"
+            },
+            "GT.Transversal.Integration": {
+              "target": "Package",
+              "version": "[2022.9.9.1608-rc, )"
+            },
+            "GT.Transversal.Web": {
+              "target": "Package",
+              "version": "[2022.9.9.1608-rc, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Application.Abstractions\\botWhatsapp.Application.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Application.Abstractions\\botWhatsapp.Application.Abstractions.csproj",
+        "projectName": "botWhatsapp.Application.Abstractions",
+        "projectPath": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Application.Abstractions\\botWhatsapp.Application.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Application.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/proyecto-grantitan/2c56efb1-2ee3-47ac-89c3-8f945274c695/_packaging/GranTitanFeed/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/proyecto-grantitan/2c56efb1-2ee3-47ac-89c3-8f945274c695/_packaging/GrantitanFeedNet60/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Common\\botWhatsapp.Common.csproj": {
+                "projectPath": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Common\\botWhatsapp.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Common\\botWhatsapp.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Common\\botWhatsapp.Common.csproj",
+        "projectName": "botWhatsapp.Common",
+        "projectPath": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Common\\botWhatsapp.Common.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/proyecto-grantitan/2c56efb1-2ee3-47ac-89c3-8f945274c695/_packaging/GranTitanFeed/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/proyecto-grantitan/2c56efb1-2ee3-47ac-89c3-8f945274c695/_packaging/GrantitanFeedNet60/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.DataAccess.Abstractions\\botWhatsapp.DataAccess.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.DataAccess.Abstractions\\botWhatsapp.DataAccess.Abstractions.csproj",
+        "projectName": "botWhatsapp.DataAccess.Abstractions",
+        "projectPath": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.DataAccess.Abstractions\\botWhatsapp.DataAccess.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.DataAccess.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/proyecto-grantitan/2c56efb1-2ee3-47ac-89c3-8f945274c695/_packaging/GranTitanFeed/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/proyecto-grantitan/2c56efb1-2ee3-47ac-89c3-8f945274c695/_packaging/GrantitanFeedNet60/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Common\\botWhatsapp.Common.csproj": {
+                "projectPath": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Common\\botWhatsapp.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GT.Salesforce.DataAccess.Abstractions": {
+              "target": "Package",
+              "version": "[2022.12.15.1356-rc, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.DataAccess\\botWhatsapp.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.DataAccess\\botWhatsapp.DataAccess.csproj",
+        "projectName": "botWhatsapp.DataAccess",
+        "projectPath": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.DataAccess\\botWhatsapp.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/proyecto-grantitan/2c56efb1-2ee3-47ac-89c3-8f945274c695/_packaging/GranTitanFeed/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/proyecto-grantitan/2c56efb1-2ee3-47ac-89c3-8f945274c695/_packaging/GrantitanFeedNet60/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.DataAccess.Abstractions\\botWhatsapp.DataAccess.Abstractions.csproj": {
+                "projectPath": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.DataAccess.Abstractions\\botWhatsapp.DataAccess.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GT.Transversal.DataAccess": {
+              "target": "Package",
+              "version": "[2022.9.9.1608-rc, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Integration.Abstractions\\botWhatsapp.Integration.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Integration.Abstractions\\botWhatsapp.Integration.Abstractions.csproj",
+        "projectName": "botWhatsapp.Integration.Abstractions",
+        "projectPath": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Integration.Abstractions\\botWhatsapp.Integration.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Integration.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/proyecto-grantitan/2c56efb1-2ee3-47ac-89c3-8f945274c695/_packaging/GranTitanFeed/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/proyecto-grantitan/2c56efb1-2ee3-47ac-89c3-8f945274c695/_packaging/GrantitanFeedNet60/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Common\\botWhatsapp.Common.csproj": {
+                "projectPath": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Common\\botWhatsapp.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Integration\\botWhatsapp.Integration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Integration\\botWhatsapp.Integration.csproj",
+        "projectName": "botWhatsapp.Integration",
+        "projectPath": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Integration\\botWhatsapp.Integration.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Integration\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/proyecto-grantitan/2c56efb1-2ee3-47ac-89c3-8f945274c695/_packaging/GranTitanFeed/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/proyecto-grantitan/2c56efb1-2ee3-47ac-89c3-8f945274c695/_packaging/GrantitanFeedNet60/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Integration.Abstractions\\botWhatsapp.Integration.Abstractions.csproj": {
+                "projectPath": "C:\\apibotWhatsapp\\botWhatsapp\\botWhatsapp.Integration.Abstractions\\botWhatsapp.Integration.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
